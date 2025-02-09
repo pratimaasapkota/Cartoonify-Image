@@ -20,14 +20,8 @@ Cartoonify Image is a Python-based application that uses Neural Style Transfer t
 
 We welcome contributions to this project! If you have an idea for an improvement or have found a bug, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
 This project is inspired by the Neural Style Transfer technique. Special thanks to the open-source community for providing tools and resources that made this project possible.
 
-## Live Demo
-
-The site is live on [http://cartoonify-image.streamlit.app](http://cartoonify-image.streamlit.app)
