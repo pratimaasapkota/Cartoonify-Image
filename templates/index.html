@@ -1,0 +1,28 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Transformation App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Image Transformation App</h1>
+    
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <span>Content Image</span>
+        <input type="file" name="content_image">
+        <span>Style Image</span>
+        <input type="radio" name="style" value="1" id="style1">
+        <label for="style1">Style 1</label>
+        <input type="radio" name="style" value="2" id="style2">
+        <label for="style2">Style 2</label>
+        <br>
+        <button type="submit">Transform Images</button>
+    </form>
+
+    {% if transformed_image %}
+        <h2>Transformed Image</h2>
+        <img src="output.jpg" alt="Transformed Image">
+    {% endif %}
+</body>
+</html>
