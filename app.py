@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 def main():
-    st.title("Neural Style Transfer")
+    st.title("Image Cartoonification using Neural Style Transfer")
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg"])
 
