@@ -10,7 +10,7 @@ def main():
 
     if uploaded_file is not None:
         content_image = Image.open(uploaded_file)
-        st.image(content_image, caption='Uploaded Image.', use_column_width=True)
+        st.image(content_image, caption='Uploaded Image.', use_column_width=True) 
 
         style_choice = st.radio("Choose a style", (1, 2))
 
